@@ -200,9 +200,6 @@ spyder=3.3.5=py37_0
 spyder-kernels=0.5.1=py37_0
 sqlite=3.28.0=he774522_0
 statsmodels=0.10.1=py37h8c2d366_0
-tensorboard=1.14.0=pypi_0
-tensorflow=1.14.0=pypi_0
-tensorflow-estimator=1.14.0=pypi_0
 termcolor=1.1.0=pypi_0
 terminado=0.8.2=py37_0
 testpath=0.4.2=py37_0
