@@ -15,7 +15,6 @@ autograd-gamma=0.4.1=pypi_0
 babel=2.7.0=py_0
 backcall=0.1.0=py37_0
 blas=1.0=mkl
-bleach=3.1.0=py37_0
 ca-certificates=2019.11.28=hecc5488_0
 certifi=2019.11.28=py37_0
 cffi=1.12.3=py37h7a1dbc1_0
