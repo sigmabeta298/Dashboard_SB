@@ -138,7 +138,6 @@ pastedeploy=2.0.1=py37_0
 patsy=0.5.1=py37_0
 pefile=2019.4.18=pypi_0
 pickleshare=0.7.5=py37_0
-pillow=6.1.0=pypi_0
 pip=19.1.1=py37_0
 plaster=1.0=py37_1
 plaster_pastedeploy=0.7=py37_0
