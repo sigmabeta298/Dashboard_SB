@@ -1,4 +1,5 @@
 import os
+from random import randint
 import dash_html_components as html
 import layouts as lyt
 
