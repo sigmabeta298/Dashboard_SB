@@ -11,8 +11,8 @@ import layouts as lyt
 
 from app import app
 
-#import callbacks
-
+server = index.server
+server.secret_key = os.environ.get('secret_key', 'secret')
 app.layout = html.Div([
     
     lyt.main_page
