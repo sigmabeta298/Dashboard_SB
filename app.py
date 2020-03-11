@@ -1,14 +1,19 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Feb 26 13:49:44 2020
+import dash_html_components as html
+import layouts as lyt
 
-@author: Syamanthaka
-"""
-import dash
-import dash_bootstrap_components as dbc
+import callbacks
 
-
-server = index.server
+server = app.server
 server.secret_key = os.environ.get('secret_key', 'secret')
-app = dash.Dash(__name__, server=server)
+app = dash.Dash(name = __name__, server = server)
+app.config.supress_callback_exceptions = True
+
+app.layout = html.Div([
+    
+    lyt.main_page
+])
+
+
 app.config.suppress_callback_exceptions = True
+if __name__ == '__main__':
+    app.run_server(debug=False)
